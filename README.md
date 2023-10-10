@@ -1,7 +1,7 @@
 # QEcon2023
 
-* Log and annoucements 
-+ 9/10: we talked about unidimensional unconstrained optimization: bracketing methods and Newton's methdod.
+## Log and annoucements 
++ 9/10: we talked about unidimensional unconstrained optimization: bracketing methods and Newton's method.
 
 ## How to start using Julia
 Follow [these instructions](https://code.visualstudio.com/docs/languages/julia). Please use Julia 1.9.3.
