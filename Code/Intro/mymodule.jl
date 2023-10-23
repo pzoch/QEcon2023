@@ -1,5 +1,4 @@
 module MyModule
-
 export myfunction
 
 function myfunction(x)
