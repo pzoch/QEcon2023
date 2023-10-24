@@ -3,7 +3,8 @@
 
 
 ## Log and annoucements 
-+ Problem Set 1 is available. It is due on 6.11.2023, 11:59PM. You can submit it by email or (preferably) by creating a self-contained repository with all required files inside.
+> [!IMPORTANT]
+> **Problem Set 1** is available. It is due on **6.11.2023, 11:59 PM**. You can submit your code by email or (preferably) by sharing a self-contained repository with all required files inside.
 
 + 23/10: we finished the topic of optimization by spending some time on constrained optimization; we saw how to draw random numbers in Julia and started talking about spectral methods.
 + 16/10: we talked about multidimensional unconstrained optimization: Newton, polytope methods, direction methods.
