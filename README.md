@@ -3,9 +3,7 @@
 
 
 ## Log and annoucements 
-> [!IMPORTANT]
-> **Problem Set 1** is available. It is due on **6.11.2023, 11:59 PM**. You can submit your code by email or (preferably) by sharing a self-contained repository with all required files inside.
-
++ 7/11: we talked a bit more about spectral methods (mainly Chebyshev polynomials), we saw some interpolation code example and finished by discussing the finite element method.
 + 23/10: we finished the topic of optimization by spending some time on constrained optimization; we saw how to draw random numbers in Julia and started talking about spectral methods.
 + 16/10: we talked about multidimensional unconstrained optimization: Newton, polytope methods, direction methods.
 + 9/10: we talked about unidimensional unconstrained optimization: bracketing methods and Newton's method.
