@@ -3,6 +3,7 @@
 
 
 ## Log and annoucements 
++ 13/11: we started discussing (discrete) dynamic programming. We introduced the McCall's job search model with finite and infinite horizon and solved it by iterating on the conctinuation value. Then we talked about the Contraction Mapping Theorem and how it potentially allows us to solve Bellman equations.
 + 7/11: we talked a bit more about spectral methods (mainly Chebyshev polynomials), we saw some interpolation code example and finished by discussing the finite element method.
 + 23/10: we finished the topic of optimization by spending some time on constrained optimization; we saw how to draw random numbers in Julia and started talking about spectral methods.
 + 16/10: we talked about multidimensional unconstrained optimization: Newton, polytope methods, direction methods.
