@@ -82,14 +82,14 @@ end
 
 hh = create_ha_block(ϕ = 1.0)
 a_grid = create_grid(hh,a_max = 100)
-prices = (r=0.01, w=1.0, τ_w = 0.0, τ_r = 0.0, d = 0.0)
+prices = (r=0.0, w=1.0, τ_w = 0.0, τ_r = 0.0, d = 0.0)
 
 @benchmark solve_hh_block($a_grid,$hh,$prices)
 
 for n in [30, 40, 50]
     println("n: $n")
     a_grid = create_grid(hh,N_a = n, a_max = 100)
-    @benchmark solve_hh_block($a_grid,$hh,$prices)
+    @btime solve_hh_block($a_grid,$hh,$prices)
 end
 
 

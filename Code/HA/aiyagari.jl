@@ -6,8 +6,8 @@ using Revise
 
 using Distributions, QuantEcon, IterTools, Plots, Optim, Interpolations, LinearAlgebra, Inequality, Statistics, ColorSchemes,PrettyTables, Roots
 
-
-
+mymy = 5
+mymy
 ### LOAD MODULE 
 includet("aiyagari_module.jl")
 using .Aiyagari
@@ -80,7 +80,7 @@ println("error in VFI = $error")
     aiyagari_residual(r_guess)
 
 # plot 
-    r_vec = LinRange(-0.06,0.03,10)
+    r_vec = LinRange(-0.06,0.01,10)
     plot(r_vec, aiyagari_residual.(r_vec), label = false, lw = 3, color = :black, title = "Excess demand for assets", xlabel = "r", ylabel = "Excess demand")
 
 # solve for an equilibrium return 

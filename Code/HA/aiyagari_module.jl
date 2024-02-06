@@ -9,7 +9,7 @@ export create_grid, create_ha_block, getW!, vfi, T_operator
 export get_q, get_transition, stationary_distribution_hh, show_statistics_hugget, solve_hh_block
 
 
-function create_grid(ha_block;N_a=70,a_max=40);
+function create_grid(ha_block;N_a=60,a_max=40);
     a_min = -ha_block.ϕ
 
     a_vec= collect(range(a_min, a_max, length=N_a))
