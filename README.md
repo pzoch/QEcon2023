@@ -2,9 +2,10 @@
 
 
 > [!IMPORTANT]
-> **Problem Set 2** is available. It is due on **18.12.2023, 11:59 PM**. You can submit your code by email or (preferably) by sharing a self-contained repository with all required files inside.
+> **Problem Set 3** is available. See the instructions in the file. You can submit your code by email or (preferably) by sharing a self-contained repository with all required files inside.
 
 ## Log and annoucements 
+
 + 4/12: we proved the equivalence between solving the sequence problem and the functional (Bellman) equation for (finite) Markov Decision Processes. We introduced policy operators and talked about Howard policy iteration and optimistic policy iteration. 
 + 27/11: two examples of dynamic programming: option pricing and inventory management problem.
 + 20/11: we finished intro to dynamic programming by using value function iteration to solve the McCall's job search model and talked about Markov Chains.
